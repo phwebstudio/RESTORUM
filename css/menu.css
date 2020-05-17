@@ -1,0 +1,125 @@
+#magnify {
+	width: 35%;
+}
+
+.menu-slider {
+	width: 54%;
+	margin: 0 auto;
+}
+
+.menu-slider .slick-prev {
+	left: -100px;
+}
+
+.menu-slider .slick-next {
+	right: -100px;
+}
+
+/*Всё меню*/
+.menu {
+	display: block;
+}
+
+.menu,
+.chief-menu,
+.lunch-menu,
+.bar-menu,
+.hookah-map {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.menu .menu-item {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: overlay;
+	background-color: rgba(0, 0, 0, .5);
+	width: 100%;
+	height: 25em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2.5em;
+}
+
+.menu a[href="chief-menu.html"] {
+	background-image: url(../img/bckgrnd_menu-chief.png);
+}
+
+.menu a[href="lunch-menu.html"] {
+	background-image: url(../img/bckgrnd_menu-lunch.png);
+}
+
+.menu a[href="bar-menu.html"] {
+	background-image: url(../img/bckgrnd_menu-bar.png);
+}
+
+.menu a[href="hookah-map.html"] {
+	background-image: url(../img/hookah-map.png);
+	margin-bottom: 0;
+}
+
+.menu .menu-item span {
+	color: transparent;
+	transition: .25s;
+	font-size: 2.5em;
+}
+
+.menu .menu-item:hover span {
+	color: #FF00FF;
+	font-weight: bold;
+}
+/*-----*/
+
+/*Основное меню*/
+.chief-menu,
+.lunch-menu,
+.bar-menu {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right;
+	background-size: cover;
+	background-blend-mode: overlay;
+	background-color: rgba(0, 0, 0, .75);
+	width: 82.5%;
+	margin: 0 auto;
+}
+
+.chief-menu {
+	background-image: url(../img/chief_menu-1.jpg);
+}
+
+.chief-menu img,
+.lunch-menu img,
+.bar-menu img,
+.hookah-map img {
+	width: 100%;
+	cursor: pointer;
+}
+
+.hookah-map img {
+	cursor: default;
+}
+
+.chief-menu img:last-child {
+	margin: 0;
+}
+/*-----*/
+
+/*Lunch - меню*/
+.lunch-menu {
+	background-image: url(../img/lunch_menu-1.png);
+}
+/*-----*/
+
+/*Барное меню*/
+.bar-menu {
+	background-image: url(../img/bar_menu-1.png);
+}
+/*-----*/
+
+/*Кальянная карта*/
+.hookah-map img {
+	width: 100%;
+}
+/*-----*/

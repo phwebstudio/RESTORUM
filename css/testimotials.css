@@ -1,0 +1,17 @@
+.testimotials-item:first-child,
+.testimotials-item:nth-child(3),
+.testimotials-item:nth-child(5),
+.testimotials-item:nth-child(7),
+.testimotials-item:nth-child(9),
+.testimotials-item:nth-child(11) {
+	background-color: rgba(255, 255, 255, .075);
+}
+
+.testimotials {
+	padding-top: 0;
+}
+
+.testimotials .testimotials-item {
+	padding: 1em;
+	text-align: left;
+}
